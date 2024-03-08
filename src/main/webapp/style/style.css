@@ -1,0 +1,43 @@
+.section{
+    border: 1px solid black;
+    border-radius: 15px;
+    box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.5);
+    padding: 2em 2em 2em;
+    margin: 0.5em 0.5em 0.5em;
+    overflow-x: auto;
+}
+
+th, td {
+    border-bottom: 1px solid black;
+}
+
+table{
+    width: 100%;
+}
+
+th{
+    height: 1.5em;
+    font-size: 1.5em;
+    background: cadetblue;
+}
+
+td{
+    text-align: center;
+}
+
+.todo{
+    background: cadetblue;
+}
+
+.progress{
+    background: #b7661e;
+}
+
+.done{
+    background: green;
+}
+
+.buttons{
+    background: white !important;
+    border-bottom: 0;
+}
